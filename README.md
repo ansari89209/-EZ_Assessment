@@ -1,39 +1,50 @@
-React.js Responsive Home Page Assignment
+# React.js Responsive Home Page
 
-This project is a single-page responsive web application built using React.js (Vite).
-It recreates the Home Page design shared in the Figma file and includes a fully functional Contact Form integrated with the required API endpoint.
+A responsive single-page web application built with React.js (Vite) that recreates a Figma design and includes a functional contact form with API integration.
 
-Figma Design
+## Features
 
-https://www.figma.com/design/1EUuNvrVUVWuYkTG0OmpMj/EZ-Labs-Assignment?node-id=0-1
+- Responsive UI for mobile, tablet, and desktop
+- Home Page layout from Figma design
+- Contact Form with validation and API integration
+- Success message on form submission
 
-Features
+## Figma Design
 
-Responsive UI for mobile, tablet, and desktop
+[View Design](https://www.figma.com/design/1EUuNvrVUVWuYkTG0OmpMj/EZ-Labs-Assignment?node-id=0-1)
 
-Home Page layout recreated from Figma
+## Tech Stack
 
-Contact Form with:
+- React.js (Vite)
+- Tailwind CSS
+- Axios
 
-Empty field validation
+## API Endpoint
 
-Email validation
-
-API integration (POST request)
-
-Success message on status 200
-
-API Endpoint
-
+```
 POST https://vernanbackend.ezlab.in/api/contact-us/
-Tech Stack
+```
 
-React.js (Vite)
+## Installation
 
-Tailwind CSS
-
-Axios
-
-Run Locally
+```bash
 npm install
+```
+
+## Run Locally
+
+```bash
 npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Form Validation
+
+- Empty field validation
+- Email format validation
+- Success message on status 200
